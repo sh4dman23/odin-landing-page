@@ -19,11 +19,12 @@ button {
     color: #f9faf8;
     font-weight: 700;
     cursor: pointer;
+    transition: all 0.15s ease-in-out;
 }
 
 button:hover {
     background-color: #f9faf8;
-    color: #1f2937;
+    color: #3882f6;
 }
 
 .header-logo {

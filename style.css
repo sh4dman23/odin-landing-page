@@ -84,14 +84,14 @@ button {
 
 .hero-img {
     background-color: #f0f0f0;
+    flex-basis: 800px;
+    aspect-ratio: 32 / 15;
     border: none;
     border-radius: 12px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
-    height: 300px;
 }
 
 .hero-img img {
@@ -99,13 +99,13 @@ button {
 }
 
 .information {
-    height: 400px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 7rem;
 }
 
 .info-header {
@@ -118,6 +118,7 @@ button {
 .info-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 3rem;
     width: 100%;
 }
